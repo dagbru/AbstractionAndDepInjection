@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADI.App", "ADI.App\ADI.App.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADI.Services", "ADI.Services\ADI.Services.csproj", "{94B9F685-969C-41A4-BAB1-DA01EBD81381}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADI.Api", "ADI.Api\ADI.Api.csproj", "{258D20B0-57A6-442D-86E5-AD0FCC8ADDC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{94B9F685-969C-41A4-BAB1-DA01EBD81381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B9F685-969C-41A4-BAB1-DA01EBD81381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B9F685-969C-41A4-BAB1-DA01EBD81381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258D20B0-57A6-442D-86E5-AD0FCC8ADDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258D20B0-57A6-442D-86E5-AD0FCC8ADDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258D20B0-57A6-442D-86E5-AD0FCC8ADDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258D20B0-57A6-442D-86E5-AD0FCC8ADDC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

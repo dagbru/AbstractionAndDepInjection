@@ -3,8 +3,16 @@
 using System.Text.Json;
 using ADI.Services;
 using ADI.Services.Models;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
-var openLibraryApiClient = new OpenLibraryApiClient();
+var builder = Host.CreateApplicationBuilder(args);
+
+builder.Services.AddTransient<OpenLibraryApiClient>();
+
+var host = builder.Build();
+
+var openLibraryApiClient = host.Services.GetRequiredService<OpenLibraryApiClient>();
 
 var searchQuery = new SearchQuery
 {
